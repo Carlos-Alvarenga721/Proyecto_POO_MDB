@@ -21,15 +21,20 @@
 
 **2) Link Trello**
 
+--Link del tablero de trello usado en la fase #1
 https://trello.com/b/JbtiA0RQ/primera-fase-proyecto
+
+--Link del tablero de trello usado en la fase #2
+https://trello.com/b/1qlmP7Pj/segunda-fase-proyecto
 
 **3) Link de nuestro MockUp**
 
-https://www.figma.com/proto/2IZDLDd9tfKQ9j8RflAzoY/Mock-Up-Proyecto_POO?node-id=12%3A4&scaling=contain&page-id=0%3A1
+LINK DE NUESTRO MOCK
+https://www.figma.com/proto/2IZDLDd9tfKQ9j8RflAzoY/Mock-Up-Proyecto_POO?node-id=377%3A4&scaling=contain&page-id=0%3A1&starting-point-node-id=377%3A4
 
 (Es importante aclarar que nuestro mock up, no va ubicado en una sola pagina, sino que se pasa tipo diapositiva, ya que consideramos que se veria mas ordenado de ese modo, y asi se pudiera evidenciar de mejor manera el orden de como funcionaria la aplicacion, pero todo el mock up se realizo con el editor de figma, esperamos no haya ningun problema por ese cambio estetico que decidimos implementar) 
 
--Link del video del funcionamiento de nuestro mock up
+--Link del video del funcionamiento de nuestro mock up para la FASE#1
 
 https://youtu.be/WiOLcHMXMwU
 
@@ -41,8 +46,22 @@ https://youtu.be/WiOLcHMXMwU
 
 -Esta licencia permite el uso comercial de la obra y de las posibles obras derivadas, pero la distribución de éstas se debe hacer con una licencia igual a la que regula la obra original, es decir, la obra derivada que se lleve a cabo a partir de la obra original deberá ser explotada bajo la misma licencia.
 
-**5) PDF del proyecto**
+**5) PDF del proyecto de la FASE#1**
 
 [proyectoPOO_Fase1.pdf](https://github.com/Carlos-Alvarenga721/Proyecto_POO_MDB/files/7158549/proyectoPOO_Fase1.pdf)
+
+**6) Link del funcionamiento de nuestro programa**
+
+https://www.youtube.com/watch?v=PYTZ0nJsk8I
+
+
+**7) Link del Manual de usuario**
+
+[Manual_de_Usuario.pdf](https://github.com/Carlos-Alvarenga721/Proyecto_POO_MDB/files/7358625/Manual_de_Usuario.pdf)
+
+**8) Link del Manual técnico**
+
+[manual técnico (1).pdf](https://github.com/Carlos-Alvarenga721/Proyecto_POO_MDB/files/7358626/manual.tecnico.1.pdf)
+
 
 
