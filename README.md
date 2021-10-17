@@ -64,4 +64,9 @@ https://www.youtube.com/watch?v=PYTZ0nJsk8I
 [manual técnico (1).pdf](https://github.com/Carlos-Alvarenga721/Proyecto_POO_MDB/files/7358626/manual.tecnico.1.pdf)
 
 
+**Importante especificar**
 
+Para nuestro proyecto es necesario crear una base de datos (arriba en la rama main puede ver el query de la base de datos),
+es necesario que para nuestro programa realice el cambio del servidor y contraseña que esta escrita en el programa, en nuestro caso
+el proyecto tiene una clase llamada "conexion" donde usted debe realizar esos cambios del servidor y la clave correspondientes
+a su servidor local, Todo esto es necesario para que el proyecto funcione correctamente.
