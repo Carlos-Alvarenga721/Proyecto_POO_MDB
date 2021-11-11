@@ -25,6 +25,9 @@ https://trello.com/b/JbtiA0RQ/primera-fase-proyecto
 --Link del tablero de trello usado en la fase #2
 https://trello.com/b/1qlmP7Pj/segunda-fase-proyecto
 
+--Link del tablero de trello usado en la fase #3
+https://trello.com/b/t8KOBSYw/fase-final-proyecto
+
 **3) Link de nuestro MockUp**
 
 LINK DE NUESTRO MOCK
@@ -55,11 +58,13 @@ https://www.youtube.com/watch?v=PYTZ0nJsk8I
 
 **7) Link del Manual de usuario**
 
-[Manual_de_Usuario.pdf](https://github.com/Carlos-Alvarenga721/Proyecto_POO_MDB/files/7358625/Manual_de_Usuario.pdf)
+[Manual_de_Usuario (1).pdf](https://github.com/Carlos-Alvarenga721/Proyecto_POO_MDB/files/7517765/Manual_de_Usuario.1.pdf)
+
 
 **8) Link del Manual técnico**
 
-[manual técnico (1).pdf](https://github.com/Carlos-Alvarenga721/Proyecto_POO_MDB/files/7358626/manual.tecnico.1.pdf)
+
+[Uploading Manual técnico.pdf…]()
 
 
 **Importante especificar**
