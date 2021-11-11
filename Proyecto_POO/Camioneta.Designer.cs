@@ -39,6 +39,7 @@ namespace Proyecto_POO
             // 
             this.btnmarca1.Location = new System.Drawing.Point(74, 87);
             this.btnmarca1.Text = "Nissan";
+            this.btnmarca1.Click += new System.EventHandler(this.btnmarca1_Click);
             // 
             // btnmarca2
             // 
@@ -50,6 +51,7 @@ namespace Proyecto_POO
             // 
             this.btnmarca3.Location = new System.Drawing.Point(684, 87);
             this.btnmarca3.Text = "Chevrolet";
+            this.btnmarca3.Click += new System.EventHandler(this.btnmarca3_Click);
             // 
             // btnregresar
             // 

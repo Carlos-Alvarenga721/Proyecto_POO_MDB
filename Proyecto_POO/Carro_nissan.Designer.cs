@@ -41,14 +41,25 @@ namespace Proyecto_POO
             this.btnregresar.Size = new System.Drawing.Size(151, 53);
             this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
             // 
-            // btncomprar
+            // btnvender
             // 
-            this.btncomprar.Size = new System.Drawing.Size(168, 53);
+            this.btnvender.Size = new System.Drawing.Size(168, 53);
+            this.btnvender.Click += new System.EventHandler(this.btnvender_Click);
             // 
             // Picbox
             // 
             this.Picbox.Location = new System.Drawing.Point(33, 88);
             this.Picbox.Size = new System.Drawing.Size(324, 212);
+            // 
+            // label1
+            // 
+            this.label1.Size = new System.Drawing.Size(652, 51);
+            this.label1.Text = "Seleccione el modelo y detalles de su carro:";
+            // 
+            // labelprecio
+            // 
+            this.labelprecio.Size = new System.Drawing.Size(388, 25);
+            this.labelprecio.Text = "El precio del carro solicitado es igual a: ";
             // 
             // btnsolicitar
             // 
@@ -58,7 +69,7 @@ namespace Proyecto_POO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 425);
+            this.ClientSize = new System.Drawing.Size(907, 489);
             this.Name = "Carro_nissan";
             this.Text = "Carro_nissan";
             this.Load += new System.EventHandler(this.Carro_nissan_Load);

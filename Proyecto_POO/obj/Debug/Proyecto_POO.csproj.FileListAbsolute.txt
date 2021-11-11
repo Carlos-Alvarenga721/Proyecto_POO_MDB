@@ -19,3 +19,8 @@ C:\Users\ialva\source\repos\Proyecto_POO\Proyecto_POO\obj\Debug\Proyecto_POO.Car
 C:\Users\ialva\source\repos\Proyecto_POO\Proyecto_POO\obj\Debug\Proyecto_POO.Carro_nissan.resources
 C:\Users\ialva\source\repos\Proyecto_POO\Proyecto_POO\obj\Debug\Proyecto_POO.Camioneta.resources
 C:\Users\ialva\source\repos\Proyecto_POO\Proyecto_POO\obj\Debug\Proyecto_POO.camioneta_ford.resources
+C:\Users\ialva\source\repos\Proyecto_POO\Proyecto_POO\obj\Debug\Proyecto_POO.camioneta_nissan.resources
+C:\Users\ialva\source\repos\Proyecto_POO\Proyecto_POO\obj\Debug\Proyecto_POO.camioneta_chevrolet.resources
+C:\Users\ialva\source\repos\Proyecto_POO\Proyecto_POO\obj\Debug\Proyecto_POO.Moto_Honda.resources
+C:\Users\ialva\source\repos\Proyecto_POO\Proyecto_POO\obj\Debug\Proyecto_POO.carro_bmw.resources
+C:\Users\ialva\source\repos\Proyecto_POO\Proyecto_POO\obj\Debug\Proyecto_POO.carro_honda.resources

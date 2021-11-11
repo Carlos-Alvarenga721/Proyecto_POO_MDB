@@ -118,6 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bmw_luxury_blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bmw_luxury_blanco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bmw_luxury_negro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bmw_luxury_negro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bmw_serie4_blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bmw_serie4_blanco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bmw_serie4_negro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bmw_serie4_negro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevrolet_colorado_blanca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevrolet_colorado_blanca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevrolet_colorado_roja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevrolet_colorado_roja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevrolet_tracker_blanca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevrolet_tracker_blanca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevrolet_tracker_roja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevrolet_tracker_roja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ford_escape_blanca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ford_escape_blanca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,6 +154,30 @@
   <data name="ford_xplorer_roja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ford_xplorer_roja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="honda_accord_azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\honda_accord_azul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="honda_accord_rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\honda_accord_rojo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="honda_civic_azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\honda_civic_azul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="honda_civic_rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\honda_civic_rojo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="honda_NT1100_Blanca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\honda_NT1100_Blanca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="honda_NT1100_Negra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\honda_NT1100_Negra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Honda_PCX_Blanca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Honda_PCX_Blanca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Honda_PCX_Negra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Honda_PCX_Negra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nissan_sentra_azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nissan_sentra_azul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -141,6 +189,18 @@
   </data>
   <data name="nissan_versa_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nissan_versa_naranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nissa_frontier_gris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nissa_frontier_gris.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nissa_frontier_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nissa_frontier_naranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nissa_rogue_gris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nissa_rogue_gris.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nissa_rogue_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nissa_rogue_naranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="susuki_GSX_azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\susuki_GSX_azul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

@@ -12,6 +12,7 @@ namespace Proyecto_POO
 {
     public partial class Login : Form
     {
+        //Variables utilizadas para la conexion con la base de datos
         private SqlConnection conn1;
         private SqlDataAdapter da1;
         private SqlDataReader dr1;
@@ -31,7 +32,7 @@ namespace Proyecto_POO
          //Usuario=Admin y contraseña=123
          //Usuario=Carlos y contraseña=456
             string seleccion;
-            seleccion = "Select*From Usuario Where usuario= '" + txtnombre.Text + "' AND clave= '" + txtcontraseña.Text + "'";
+            seleccion = "Select*From Acceso Where usuario= '" + txtnombre.Text + "' AND clave= '" + txtcontraseña.Text + "'";
             da1 = new SqlDataAdapter(seleccion, conn1);
             SqlParameter prm = new SqlParameter("usuario", SqlDbType.VarChar);
             prm.Value = txtnombre.Text;

@@ -23,5 +23,19 @@ namespace Proyecto_POO
             this.Hide();
             ford.Show();
         }
+
+        private void btnmarca1_Click(object sender, EventArgs e)
+        {
+            camioneta_nissan nissan = new camioneta_nissan();
+            nissan.Show();
+            this.Hide();
+        }
+
+        private void btnmarca3_Click(object sender, EventArgs e)
+        {
+            camioneta_chevrolet chevrolet = new camioneta_chevrolet();
+            chevrolet.Show();
+            this.Hide();
+        }
     }
 }

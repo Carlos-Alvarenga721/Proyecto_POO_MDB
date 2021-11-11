@@ -67,17 +67,41 @@
     <Compile Include="Camioneta.Designer.cs">
       <DependentUpon>Camioneta.cs</DependentUpon>
     </Compile>
+    <Compile Include="camioneta_chevrolet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camioneta_chevrolet.Designer.cs">
+      <DependentUpon>camioneta_chevrolet.cs</DependentUpon>
+    </Compile>
     <Compile Include="camioneta_ford.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="camioneta_ford.Designer.cs">
       <DependentUpon>camioneta_ford.cs</DependentUpon>
     </Compile>
+    <Compile Include="camioneta_nissan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camioneta_nissan.Designer.cs">
+      <DependentUpon>camioneta_nissan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Carro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Carro.Designer.cs">
       <DependentUpon>Carro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="carro_bmw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carro_bmw.Designer.cs">
+      <DependentUpon>carro_bmw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="carro_honda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carro_honda.Designer.cs">
+      <DependentUpon>carro_honda.cs</DependentUpon>
     </Compile>
     <Compile Include="Carro_nissan.cs">
       <SubType>Form</SubType>
@@ -116,6 +140,12 @@
     <Compile Include="Motocicleta.Designer.cs">
       <DependentUpon>Motocicleta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Moto_Honda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moto_Honda.Designer.cs">
+      <DependentUpon>Moto_Honda.cs</DependentUpon>
+    </Compile>
     <Compile Include="Moto_susuki.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,11 +169,23 @@
     <EmbeddedResource Include="Camioneta.resx">
       <DependentUpon>Camioneta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="camioneta_chevrolet.resx">
+      <DependentUpon>camioneta_chevrolet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="camioneta_ford.resx">
       <DependentUpon>camioneta_ford.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="camioneta_nissan.resx">
+      <DependentUpon>camioneta_nissan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Carro.resx">
       <DependentUpon>Carro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carro_bmw.resx">
+      <DependentUpon>carro_bmw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carro_honda.resx">
+      <DependentUpon>carro_honda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Carro_nissan.resx">
       <DependentUpon>Carro_nissan.cs</DependentUpon>
@@ -162,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Motocicleta.resx">
       <DependentUpon>Motocicleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moto_Honda.resx">
+      <DependentUpon>Moto_Honda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Moto_susuki.resx">
       <DependentUpon>Moto_susuki.cs</DependentUpon>
@@ -254,6 +299,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ford_xplorer_roja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bmw_luxury_blanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bmw_luxury_negro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bmw_serie4_blanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bmw_serie4_negro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevrolet_colorado_roja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevrolet_tracker_blanca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevrolet_tracker_roja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honda_accord_azul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honda_accord_rojo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honda_civic_azul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honda_civic_rojo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nissa_frontier_gris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nissa_frontier_naranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nissa_rogue_gris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nissa_rogue_naranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevrolet_colorado_blanca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honda_NT1100_Blanca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honda_NT1100_Negra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honda_PCX_Blanca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honda_PCX_Negra.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

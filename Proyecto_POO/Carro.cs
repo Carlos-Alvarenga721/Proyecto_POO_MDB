@@ -23,5 +23,19 @@ namespace Proyecto_POO
             this.Hide();
             nissan.Show();
         }
+
+        private void btnmarca2_Click(object sender, EventArgs e)
+        {
+            carro_bmw bmw = new carro_bmw();
+            bmw.Show();
+            this.Hide();
+        }
+
+        private void btnmarca3_Click(object sender, EventArgs e)
+        {
+            carro_honda honda = new carro_honda();
+            honda.Show();
+            this.Hide();
+        }
     }
 }
