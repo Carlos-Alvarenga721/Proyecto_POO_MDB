@@ -12,7 +12,7 @@ namespace Proyecto_POO
         public void conec()
         {
             servidor = "CARLOS-COMPUTER";
-            db = "PROYECTO_POO";
+            db = "BaseAutos_ProyectoMDB";
             usuario = "sa";
             clave = "C1a2a3c4";
             cadena = $"server={servidor};uid={usuario};pwd={clave};database={db}";

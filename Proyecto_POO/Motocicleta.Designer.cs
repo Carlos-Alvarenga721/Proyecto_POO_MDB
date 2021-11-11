@@ -48,6 +48,7 @@ namespace Proyecto_POO
             // btnmarca3
             // 
             this.btnmarca3.Text = "Honda";
+            this.btnmarca3.Click += new System.EventHandler(this.btnmarca3_Click);
             // 
             // label1
             // 

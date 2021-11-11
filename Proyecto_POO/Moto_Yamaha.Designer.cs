@@ -36,15 +36,46 @@ namespace Proyecto_POO
             // 
             this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
             // 
+            // btnvender
+            // 
+            this.btnvender.Click += new System.EventHandler(this.btnvender_Click);
+            // 
+            // label1
+            // 
+            this.label1.Size = new System.Drawing.Size(741, 51);
+            this.label1.Text = "Seleccione el modelo y detalles de su motocicleta:";
+            // 
+            // combomodelo
+            // 
+            this.combomodelo.Size = new System.Drawing.Size(203, 21);
+            // 
+            // labelprecio
+            // 
+            this.labelprecio.Size = new System.Drawing.Size(464, 25);
+            this.labelprecio.Text = "El precio de la motocicleta solicitada es igual a: ";
+            // 
+            // combocolor
+            // 
+            this.combocolor.Size = new System.Drawing.Size(203, 21);
+            // 
             // btnsolicitar
             // 
+            this.btnsolicitar.Location = new System.Drawing.Point(661, 183);
             this.btnsolicitar.Click += new System.EventHandler(this.btnsolicitar_Click);
+            // 
+            // labelnombre
+            // 
+            this.labelnombre.Location = new System.Drawing.Point(662, 109);
+            // 
+            // NombreClienteL
+            // 
+            this.NombreClienteL.Location = new System.Drawing.Point(662, 149);
             // 
             // Moto_Yamaha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 390);
+            this.ClientSize = new System.Drawing.Size(942, 515);
             this.Name = "Moto_Yamaha";
             this.Text = "Moto_Yamaha";
             this.Load += new System.EventHandler(this.Moto_Yamaha_Load);

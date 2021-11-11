@@ -28,5 +28,12 @@ namespace Proyecto_POO
             this.Hide();
             susuki.Show();
         }
+
+        private void btnmarca3_Click(object sender, EventArgs e)
+        {
+            Moto_Honda Honda = new Moto_Honda();
+            Honda.Show();
+            this.Hide();
+        }
     }
 }

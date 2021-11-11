@@ -45,11 +45,13 @@ namespace Proyecto_POO
             // 
             this.btnmarca2.Location = new System.Drawing.Point(371, 77);
             this.btnmarca2.Text = "BMW";
+            this.btnmarca2.Click += new System.EventHandler(this.btnmarca2_Click);
             // 
             // btnmarca3
             // 
             this.btnmarca3.Location = new System.Drawing.Point(686, 77);
             this.btnmarca3.Text = "Honda";
+            this.btnmarca3.Click += new System.EventHandler(this.btnmarca3_Click);
             // 
             // btnregresar
             // 

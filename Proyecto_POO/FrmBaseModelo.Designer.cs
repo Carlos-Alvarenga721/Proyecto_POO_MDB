@@ -38,9 +38,15 @@ namespace Proyecto_POO
             this.combocolor = new System.Windows.Forms.ComboBox();
             this.btnsalir = new System.Windows.Forms.Button();
             this.btnregresar = new System.Windows.Forms.Button();
-            this.btncomprar = new System.Windows.Forms.Button();
+            this.btnvender = new System.Windows.Forms.Button();
             this.labelmonto = new System.Windows.Forms.Label();
             this.btnsolicitar = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txbcodcliente = new System.Windows.Forms.TextBox();
+            this.labelnombre = new System.Windows.Forms.Label();
+            this.NombreClienteL = new System.Windows.Forms.Label();
+            this.labelCodVeh = new System.Windows.Forms.Label();
+            this.IdVehiculoL = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,7 +73,7 @@ namespace Proyecto_POO
             // 
             this.combomodelo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combomodelo.FormattingEnabled = true;
-            this.combomodelo.Location = new System.Drawing.Point(411, 110);
+            this.combomodelo.Location = new System.Drawing.Point(407, 183);
             this.combomodelo.Name = "combomodelo";
             this.combomodelo.Size = new System.Drawing.Size(169, 21);
             this.combomodelo.TabIndex = 10;
@@ -76,7 +82,7 @@ namespace Proyecto_POO
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(411, 88);
+            this.label2.Location = new System.Drawing.Point(407, 149);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 21);
             this.label2.TabIndex = 11;
@@ -86,7 +92,7 @@ namespace Proyecto_POO
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(411, 159);
+            this.label3.Location = new System.Drawing.Point(407, 232);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 21);
             this.label3.TabIndex = 12;
@@ -96,7 +102,7 @@ namespace Proyecto_POO
             // 
             this.labelprecio.AutoSize = true;
             this.labelprecio.Font = new System.Drawing.Font("Segoe UI Symbol", 14.25F, System.Drawing.FontStyle.Bold);
-            this.labelprecio.Location = new System.Drawing.Point(375, 227);
+            this.labelprecio.Location = new System.Drawing.Point(406, 298);
             this.labelprecio.Name = "labelprecio";
             this.labelprecio.Size = new System.Drawing.Size(418, 25);
             this.labelprecio.TabIndex = 13;
@@ -107,7 +113,7 @@ namespace Proyecto_POO
             // 
             this.combocolor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combocolor.FormattingEnabled = true;
-            this.combocolor.Location = new System.Drawing.Point(411, 180);
+            this.combocolor.Location = new System.Drawing.Point(407, 253);
             this.combocolor.Name = "combocolor";
             this.combocolor.Size = new System.Drawing.Size(169, 21);
             this.combocolor.TabIndex = 14;
@@ -117,7 +123,7 @@ namespace Proyecto_POO
             this.btnsalir.BackColor = System.Drawing.Color.MediumBlue;
             this.btnsalir.Font = new System.Drawing.Font("Sitka Small", 18F, System.Drawing.FontStyle.Bold);
             this.btnsalir.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnsalir.Location = new System.Drawing.Point(608, 315);
+            this.btnsalir.Location = new System.Drawing.Point(672, 402);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(150, 56);
             this.btnsalir.TabIndex = 15;
@@ -130,31 +136,31 @@ namespace Proyecto_POO
             this.btnregresar.BackColor = System.Drawing.Color.MediumBlue;
             this.btnregresar.Font = new System.Drawing.Font("Sitka Small", 18F, System.Drawing.FontStyle.Bold);
             this.btnregresar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnregresar.Location = new System.Drawing.Point(380, 315);
+            this.btnregresar.Location = new System.Drawing.Point(392, 402);
             this.btnregresar.Name = "btnregresar";
             this.btnregresar.Size = new System.Drawing.Size(157, 56);
             this.btnregresar.TabIndex = 16;
             this.btnregresar.Text = "Regresar";
             this.btnregresar.UseVisualStyleBackColor = false;
             // 
-            // btncomprar
+            // btnvender
             // 
-            this.btncomprar.BackColor = System.Drawing.Color.Red;
-            this.btncomprar.Font = new System.Drawing.Font("Sitka Small", 18F, System.Drawing.FontStyle.Bold);
-            this.btncomprar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btncomprar.Location = new System.Drawing.Point(106, 315);
-            this.btncomprar.Name = "btncomprar";
-            this.btncomprar.Size = new System.Drawing.Size(163, 56);
-            this.btncomprar.TabIndex = 17;
-            this.btncomprar.Text = "COMPRAR";
-            this.btncomprar.UseVisualStyleBackColor = false;
+            this.btnvender.BackColor = System.Drawing.Color.Red;
+            this.btnvender.Font = new System.Drawing.Font("Sitka Small", 18F, System.Drawing.FontStyle.Bold);
+            this.btnvender.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnvender.Location = new System.Drawing.Point(45, 402);
+            this.btnvender.Name = "btnvender";
+            this.btnvender.Size = new System.Drawing.Size(163, 56);
+            this.btnvender.TabIndex = 17;
+            this.btnvender.Text = "VENDER";
+            this.btnvender.UseVisualStyleBackColor = false;
             // 
             // labelmonto
             // 
             this.labelmonto.AutoSize = true;
             this.labelmonto.Font = new System.Drawing.Font("Segoe UI Symbol", 14.25F, System.Drawing.FontStyle.Bold);
             this.labelmonto.ForeColor = System.Drawing.Color.Red;
-            this.labelmonto.Location = new System.Drawing.Point(410, 262);
+            this.labelmonto.Location = new System.Drawing.Point(406, 342);
             this.labelmonto.Name = "labelmonto";
             this.labelmonto.Size = new System.Drawing.Size(83, 25);
             this.labelmonto.TabIndex = 18;
@@ -166,22 +172,92 @@ namespace Proyecto_POO
             this.btnsolicitar.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnsolicitar.Font = new System.Drawing.Font("Sitka Small", 18F, System.Drawing.FontStyle.Bold);
             this.btnsolicitar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnsolicitar.Location = new System.Drawing.Point(615, 110);
+            this.btnsolicitar.Location = new System.Drawing.Point(640, 183);
             this.btnsolicitar.Name = "btnsolicitar";
             this.btnsolicitar.Size = new System.Drawing.Size(161, 91);
             this.btnsolicitar.TabIndex = 20;
             this.btnsolicitar.Text = "Solicitar Vehiculo";
             this.btnsolicitar.UseVisualStyleBackColor = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(403, 88);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(126, 21);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Codigo Cliente";
+            // 
+            // txbcodcliente
+            // 
+            this.txbcodcliente.Location = new System.Drawing.Point(411, 113);
+            this.txbcodcliente.Name = "txbcodcliente";
+            this.txbcodcliente.Size = new System.Drawing.Size(138, 20);
+            this.txbcodcliente.TabIndex = 22;
+            this.txbcodcliente.Leave += new System.EventHandler(this.txbcodcliente_Leave);
+            // 
+            // labelnombre
+            // 
+            this.labelnombre.AutoSize = true;
+            this.labelnombre.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold);
+            this.labelnombre.Location = new System.Drawing.Point(641, 97);
+            this.labelnombre.Name = "labelnombre";
+            this.labelnombre.Size = new System.Drawing.Size(160, 21);
+            this.labelnombre.TabIndex = 23;
+            this.labelnombre.Text = "Nombre del cliente";
+            this.labelnombre.Visible = false;
+            // 
+            // NombreClienteL
+            // 
+            this.NombreClienteL.AutoSize = true;
+            this.NombreClienteL.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold);
+            this.NombreClienteL.ForeColor = System.Drawing.Color.Navy;
+            this.NombreClienteL.Location = new System.Drawing.Point(641, 137);
+            this.NombreClienteL.Name = "NombreClienteL";
+            this.NombreClienteL.Size = new System.Drawing.Size(160, 21);
+            this.NombreClienteL.TabIndex = 24;
+            this.NombreClienteL.Text = "Nombre del cliente";
+            this.NombreClienteL.Visible = false;
+            // 
+            // labelCodVeh
+            // 
+            this.labelCodVeh.AutoSize = true;
+            this.labelCodVeh.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold);
+            this.labelCodVeh.Location = new System.Drawing.Point(106, 328);
+            this.labelCodVeh.Name = "labelCodVeh";
+            this.labelCodVeh.Size = new System.Drawing.Size(168, 21);
+            this.labelCodVeh.TabIndex = 25;
+            this.labelCodVeh.Text = "Codigo del Vehiculo";
+            this.labelCodVeh.Visible = false;
+            // 
+            // IdVehiculoL
+            // 
+            this.IdVehiculoL.AutoSize = true;
+            this.IdVehiculoL.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold);
+            this.IdVehiculoL.ForeColor = System.Drawing.Color.Navy;
+            this.IdVehiculoL.Location = new System.Drawing.Point(123, 358);
+            this.IdVehiculoL.Name = "IdVehiculoL";
+            this.IdVehiculoL.Size = new System.Drawing.Size(134, 21);
+            this.IdVehiculoL.TabIndex = 26;
+            this.IdVehiculoL.Text = "codigo vehiculo";
+            this.IdVehiculoL.Visible = false;
+            // 
             // FrmBaseModelo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SpringGreen;
-            this.ClientSize = new System.Drawing.Size(814, 429);
+            this.ClientSize = new System.Drawing.Size(924, 485);
+            this.Controls.Add(this.IdVehiculoL);
+            this.Controls.Add(this.labelCodVeh);
+            this.Controls.Add(this.NombreClienteL);
+            this.Controls.Add(this.labelnombre);
+            this.Controls.Add(this.txbcodcliente);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnsolicitar);
             this.Controls.Add(this.labelmonto);
-            this.Controls.Add(this.btncomprar);
+            this.Controls.Add(this.btnvender);
             this.Controls.Add(this.btnregresar);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.combocolor);
@@ -202,7 +278,7 @@ namespace Proyecto_POO
         #endregion
         protected System.Windows.Forms.Button btnsalir;
         protected System.Windows.Forms.Button btnregresar;
-        protected System.Windows.Forms.Button btncomprar;
+        protected System.Windows.Forms.Button btnvender;
         protected System.Windows.Forms.PictureBox Picbox;
         protected System.Windows.Forms.Label label1;
         protected System.Windows.Forms.ComboBox combomodelo;
@@ -212,5 +288,11 @@ namespace Proyecto_POO
         protected System.Windows.Forms.ComboBox combocolor;
         protected System.Windows.Forms.Label labelmonto;
         protected System.Windows.Forms.Button btnsolicitar;
+        protected System.Windows.Forms.Label label4;
+        protected System.Windows.Forms.Label labelnombre;
+        protected System.Windows.Forms.Label NombreClienteL;
+        protected System.Windows.Forms.TextBox txbcodcliente;
+        protected System.Windows.Forms.Label labelCodVeh;
+        protected System.Windows.Forms.Label IdVehiculoL;
     }
 }

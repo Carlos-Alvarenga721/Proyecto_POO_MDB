@@ -63,6 +63,86 @@ namespace Proyecto_POO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bmw_luxury_blanco {
+            get {
+                object obj = ResourceManager.GetObject("bmw_luxury_blanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bmw_luxury_negro {
+            get {
+                object obj = ResourceManager.GetObject("bmw_luxury_negro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bmw_serie4_blanco {
+            get {
+                object obj = ResourceManager.GetObject("bmw_serie4_blanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bmw_serie4_negro {
+            get {
+                object obj = ResourceManager.GetObject("bmw_serie4_negro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chevrolet_colorado_blanca {
+            get {
+                object obj = ResourceManager.GetObject("chevrolet_colorado_blanca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chevrolet_colorado_roja {
+            get {
+                object obj = ResourceManager.GetObject("chevrolet_colorado_roja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chevrolet_tracker_blanca {
+            get {
+                object obj = ResourceManager.GetObject("chevrolet_tracker_blanca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chevrolet_tracker_roja {
+            get {
+                object obj = ResourceManager.GetObject("chevrolet_tracker_roja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ford_escape_blanca {
             get {
                 object obj = ResourceManager.GetObject("ford_escape_blanca", resourceCulture);
@@ -96,6 +176,126 @@ namespace Proyecto_POO.Properties {
         internal static System.Drawing.Bitmap ford_xplorer_roja {
             get {
                 object obj = ResourceManager.GetObject("ford_xplorer_roja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap honda_accord_azul {
+            get {
+                object obj = ResourceManager.GetObject("honda_accord_azul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap honda_accord_rojo {
+            get {
+                object obj = ResourceManager.GetObject("honda_accord_rojo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap honda_civic_azul {
+            get {
+                object obj = ResourceManager.GetObject("honda_civic_azul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap honda_civic_rojo {
+            get {
+                object obj = ResourceManager.GetObject("honda_civic_rojo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap honda_NT1100_Blanca {
+            get {
+                object obj = ResourceManager.GetObject("honda_NT1100_Blanca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap honda_NT1100_Negra {
+            get {
+                object obj = ResourceManager.GetObject("honda_NT1100_Negra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honda_PCX_Blanca {
+            get {
+                object obj = ResourceManager.GetObject("Honda_PCX_Blanca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Honda_PCX_Negra {
+            get {
+                object obj = ResourceManager.GetObject("Honda_PCX_Negra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nissa_frontier_gris {
+            get {
+                object obj = ResourceManager.GetObject("nissa_frontier_gris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nissa_frontier_naranja {
+            get {
+                object obj = ResourceManager.GetObject("nissa_frontier_naranja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nissa_rogue_gris {
+            get {
+                object obj = ResourceManager.GetObject("nissa_rogue_gris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nissa_rogue_naranja {
+            get {
+                object obj = ResourceManager.GetObject("nissa_rogue_naranja", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

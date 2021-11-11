@@ -36,16 +36,30 @@ namespace Proyecto_POO
             // 
             this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
             // 
+            // btnvender
+            // 
+            this.btnvender.Click += new System.EventHandler(this.btnvender_Click);
+            // 
+            // label1
+            // 
+            this.label1.Size = new System.Drawing.Size(741, 51);
+            this.label1.Text = "Seleccione el modelo y detalles de su motocicleta:";
+            // 
+            // labelprecio
+            // 
+            this.labelprecio.Size = new System.Drawing.Size(464, 25);
+            this.labelprecio.Text = "El precio de la motocicleta solicitada es igual a: ";
+            // 
             // btnsolicitar
             // 
-            this.btnsolicitar.Location = new System.Drawing.Point(623, 110);
+            this.btnsolicitar.Location = new System.Drawing.Point(645, 183);
             this.btnsolicitar.Click += new System.EventHandler(this.btnsolicitar_Click);
             // 
             // Moto_susuki
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(840, 417);
+            this.ClientSize = new System.Drawing.Size(980, 502);
             this.Name = "Moto_susuki";
             this.Text = "Moto_susuki";
             this.Load += new System.EventHandler(this.Moto_susuki_Load);
