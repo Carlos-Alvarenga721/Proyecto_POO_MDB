@@ -64,7 +64,8 @@ https://www.youtube.com/watch?v=PYTZ0nJsk8I
 **8) Link del Manual técnico**
 
 
-[Uploading Manual técnico.pdf…]()
+[Manual técnico.pdf](https://github.com/Carlos-Alvarenga721/Proyecto_POO_MDB/files/7517851/Manual.tecnico.pdf)
+
 
 
 **Importante especificar**
